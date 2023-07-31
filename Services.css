@@ -1,0 +1,101 @@
+ /*Button Preset*/
+ .button1{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border-color: #a91a24;
+    padding: 10px;
+    width: 120px;
+    font-weight: bolder;
+}
+
+button[class="button1"]:hover{
+    color: black;
+    background-color: white;
+    transition: 1000ms;
+}
+/*Button Preset ends here*/
+
+.imgi{
+width: 70px;
+padding-right: 20px;
+}
+
+/* This is for the header Links*/
+a{
+    padding: 10px;
+    font-weight:bolder;
+}
+
+.headernav{
+    width: 33%;
+    color: white;
+    text-decoration: none;
+    background-color: #a91a24;
+    border-radius: 10px;
+}
+
+a[class="headernav"]:hover{
+    color: black
+}
+
+a[class="headernav"]:active{
+    text-decoration: none;
+}
+
+a[class="headernav"]:visited{
+    text-decoration: none;
+    width: 33%;
+color: white;
+text-decoration: none;
+background-color: #a91a24;
+border-radius: 10px;
+}
+/* Header Links End Here */
+
+
+.footernav{
+    text-decoration: none;
+    color: white;
+}
+
+a[class="footernav"]:hover{
+    color: black;
+}
+
+.imgbody{
+border-radius: 15px;
+ width: 400px;
+height: 500px;
+}
+
+input{
+    border-radius: 10px;
+    border-color: black;
+}
+
+
+    @media only screen and (min-width: 801px) {
+
+p{
+    margin-left: 10px;
+    width: 100%;
+}
+
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 800px) {
+
+p{
+    width: 100%;
+}
+
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 599px) {
+
+p{
+    width: 100%;
+}
+
+    }
